@@ -4,14 +4,26 @@
         <title>Search</title>
     </head>
     <body>
+        <!-- Googe Search  -->
         <form action="https://google.com/search">
             <input type="text" name="q">
             <input type="submit" value="Google Search">
         </form>
+
+        <!-- Image Search -->
         <form action="https://google.com/search">
             <input type="text" name="q">
             <input type="hidden" name="tbm" value="isch">
-            <input type="submit" value="Google Images Search">
+            <input type="submit" value="Google Image Search">
+        </form>
+
+        <!-- Advanced Search -->
+        <form action="https://google.com/search">
+            <input type="text" placeholder="all these words or phrases" name="as_q">
+            <input type="text" placeholder="this exact word or phrase" name="as_epq">
+            <input type="text" placeholder="any of these words" name="as_oq">
+            <input type="text" placeholder="none of these words" name="as_eq">
+            <input type="submit" value="Advanced Search">
         </form>
     </body>
 </html>
